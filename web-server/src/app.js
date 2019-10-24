@@ -19,7 +19,7 @@ hbs.registerPartials(partialsPath)
 
 // setup directory staticư
 app.use(express.static(publicDirectoryPath))
-
+// heello
 
 // nhận request của server và trả lên interface
 app.get('', (req, res)=>{
